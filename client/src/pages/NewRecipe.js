@@ -33,7 +33,7 @@ function NewRecipe({ user }) {
       body: JSON.stringify({
         title,
         instructions,
-        minutes_to_complete: minutesToComplete,
+        minutes_to_complete: minutesToComplete      
       }),
     }).then((r) => {
       setIsLoading(false);
